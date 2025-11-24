@@ -1,0 +1,59 @@
+/* Fundo da página */
+[data-testid="stAppViewContainer"] {
+    background-color: #f2f4f7 !important;
+}
+
+/* Ajuste geral do conteúdo */
+[data-testid="stAppViewContainer"] .main, 
+.block-container {
+    padding-top: 20px !important;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+/* Botão customizado */
+.stButton > button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 0.7rem 1.4rem !important;
+    font-size: 1rem !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background-color: #45a049 !important;
+}
+
+/* Inputs gerais */
+input[type="text"],
+input[type="number"],
+textarea {
+    border-radius: 10px !important;
+    border: 1px solid #ccc !important;
+    padding: 8px !important;
+}
+
+/* Date input e outros */
+[data-testid="stDateInput"] input {
+    border-radius: 10px !important;
+}
+
+/* Selectbox */
+[data-testid="stSelectbox"] > div {
+    border-radius: 10px !important;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: "Segoe UI", sans-serif !important;
+}
