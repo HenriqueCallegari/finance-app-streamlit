@@ -3,3 +3,4 @@ pandas
 matplotlib
 plotly
 sqlite3-binary
+hashlib
