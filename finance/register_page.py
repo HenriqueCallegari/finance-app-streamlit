@@ -4,7 +4,6 @@ from database import registrar_usuario
 def mostrar_tela_registro():
     st.set_page_config(page_title="Criar Conta", layout="centered")
 
-    # CSS customizado elegante
     st.markdown("""
         <style>
         body {
