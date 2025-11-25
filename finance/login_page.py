@@ -108,11 +108,8 @@ def mostrar_login():
 
     with col1:
         if st.button("Criar conta"):
-            try:
-                st.switch_page("register_page.py")
-            except Exception:
-                st.warning("Pagina não encontrada.")
-
+                st.session_state("register_page.py")
+                st.rerun
     with col2:
         if st.button("Esqueci a senha"):
             st.info("Função ainda não implementada.")
