@@ -109,9 +109,9 @@ def mostrar_login():
     with col1:
         if st.button("Criar conta"):
             try:
-                st.switch_page("register_page.py")
+                st.switch_page("finance/register_page")
             except Exception:
-                st.warning("Arquivo de register_page.py não encontrado.")
+                st.warning("Arquivo pages/registro.py não encontrado.")
 
     with col2:
         if st.button("Esqueci a senha"):
