@@ -1,7 +1,11 @@
 import streamlit as st
 from database import autenticar_usuario
 
-st.set_page_config(page_title="Login", layout="centered")
+
+def mostrar_login():
+    st.title("🔐 Login") 
+    username = st.text_input("Usuário")
+    senha = st.text_input("Senha", type="password")
 
 # ====== ESTILO CUSTOMIZADO DO LOGIN ======
 st.markdown("""
