@@ -6,11 +6,10 @@ from database import listar_despesas, adicionar_despesa, editar_despesa, excluir
 st.set_page_config(page_title="Despesas", layout="wide")
 
 
+
 def mostrar_despesas():
     st.title("💸 Despesas")
-    st.write("Gerenciamento de despesas.")
-    st.write("Aqui você pode cadastrar, visualizar e editar suas despesas.")
-
+    st.write("Lista de despesas aqui.")
 
 css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "style.css")
 

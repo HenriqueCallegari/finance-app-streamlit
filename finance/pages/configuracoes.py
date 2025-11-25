@@ -7,9 +7,10 @@ from database import listar_entradas, listar_despesas, conectar, hash_senha
 
 st.set_page_config(page_title="Configurações", layout="wide")
 
+
 def mostrar_config():
-    st.title("⚙️ Configurações")
-    st.write("Ajustes de conta, perfil e preferências.")
+    st.title("⚙ Configurações")
+    st.write("Configurações do sistema aqui.")
 
 
 css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "style.css")

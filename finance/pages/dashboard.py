@@ -11,8 +11,9 @@ css_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "style.css")
 
 def mostrar_dashboard():
     st.title("📊 Dashboard")
-    st.write("Bem-vindo ao seu painel financeiro.")
-    st.write("Aqui você pode exibir gráficos, indicadores e resumos.")
+    st.write("Conteúdo do dashboard aqui.")
+
+
 
 with open(css_path) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
