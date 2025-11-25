@@ -1,5 +1,5 @@
 [data-testid="stAppViewContainer"] {
-    background-color: #f2f4f7 !important;
+    background-color: #000000 !important;
 }
 
 [data-testid="stAppViewContainer"] .main, 
@@ -11,7 +11,7 @@
     background: white;
     padding: 22px;
     border-radius: 14px;
-    box-shadow: 0 4px 12px white;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
